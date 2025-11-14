@@ -1,10 +1,10 @@
-//Created by Binslev | Credit to AlexYeahNot
+//Created by ChiefSupreme | Credit to AlexYeahNot
 //game version 1.016
-//created on 08-07-2022
+//Last updated 14-11-2025 (DD-MM-YYYY)
 
 state("FarCry5")
 {
-	int loading : "FC_m64.dll", 0x04FAD5D0, 0x18, 0x30, 0x50;
+	int loading : "FC_m64.dll", 0x04F84958, 0x38, 0x678, 0x78;
 }
 
 
@@ -12,4 +12,3 @@ isLoading
 {
 	return current.loading == 2;
 }
-
